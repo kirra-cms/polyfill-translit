@@ -1,0 +1,28 @@
+{
+    "name": "kirra/polyfill-translit",
+    "type": "library",
+    "description": "Kirra polyfill for the PECL Translit extension",
+    "keywords": ["polyfill", "shim", "compatibility", "portable", "translit"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "symfony/console": "^3.2",
+        "symfony/finder": "^3.2",
+        "phpunit/phpunit": "^4.8"
+    },
+    "autoload": {
+        "psr-4": { "Kirra\\Polyfill\\Translit\\": "src/" },
+        "files": [ "src/bootstrap.php" ]
+    },
+    "autoload-dev": {
+        "psr-4": { "Kirra\\Polyfill\\Translit\\Tests\\": "tests/" }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
