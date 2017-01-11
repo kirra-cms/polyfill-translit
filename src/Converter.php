@@ -233,7 +233,7 @@ ENDHEADER;
 				$rev_transpose[$block] = $c;
 				$c++;
 			}
-			$table_definition .= "\t];\n";
+			$table_definition .= "\t];\n\n";
 		}
 
 		$txt .= $table_definition;

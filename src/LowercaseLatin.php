@@ -158,6 +158,7 @@ class LowercaseLatin {
 			1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0,
 		],
 	];
+
 	public static function convert(array $in)
 	{
 		/* Determine initial string length */
